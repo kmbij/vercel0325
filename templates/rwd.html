@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>林宜潔簡介</title>
+
+	<style type="text/css">
+		* { font-family:"標楷體"; margin-left:auto; margin-right:auto;}
+		h1 {color:#484891; font-size:60px;}
+		h2 {color:#C4E1E1; font-size:40px;}
+		.col-lg-4 {border: 1px solid;}
+
+	</style>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+	<script>
+		function change1() {
+  			document.getElementById("pic").src = "/static/mountain.jpg";
+  			document.getElementById("h2text").innerText = "靜宜資管";
+		}
+
+		function change2() {
+  			document.getElementById("pic").src = "/static/cliff.jpg";
+  			document.getElementById("h2text").innerText = "Yi-Jie Lin";
+		}
+	</script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+	<a class="navbar-brand">導覽列</a>
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ITEMS">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+
+
+	<div class="collapse navbar-collapse" id="ITEMS">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a href="#yjlin" class="nav-link active">關於我</a>
+			</li>
+			<li class="nav-item">
+				<a href="#soundtrack" class="nav-link active">電影配樂</a>
+			</li>
+			<li class="nav-item">
+				<a href="#youtube" class="nav-link active">推薦影片</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+
+
+
+
+	<main class="container-fluid bg-warning text-black text-center">
+		<img src=/static/"cliff.jpg" class="img-fluid rounded-circle" width="50%"
+				id="pic" onmouseover="change1()" onmouseout="change2()"></img>
+	<div class="row">
+
+
+		<section class="col-lg-4">
+			<h3 id="yjlin">林宜潔(Yi-Jie Lin)</h3>				
+			個人網頁：<a href ="https://www.pu.edu.tw/" class="text-decoration-none text-white bg-info">https://www.pu.edu.tw/</a><br>
+			FB：<a href ="https://reurl.cc/DKW9pQ" class="text-decoration-none text-white bg-info" target="_blank">https://reurl.cc/DKW9pQ</a><br>
+			Tel:<a href="tel:095254933" class="text-decoration-none text-white bg-info">0952354933</a><br>
+			E-Mail:<a href="mailto:hhh0952354933@gmail.com" class="text-decoration-none text-white bg-info">hhh0952354933@gmail.com</a><br>
+		</section>
+
+		<section class="col-lg-4">
+			<h3 id="soundtrack">電影配樂</h3>
+			大象席地而坐電影配樂<br>
+			<audio controls>
+			<source src="/static/elephant.mp3" type="audio/mP3">
+			</audio><br>
+		</section>
+
+		<section class="col-lg-4">
+			<h3 id="youtube">推薦影片</h3>
+			【那些突如其來的迷因梗】零幀起手怎麼防<br>
+			<div class="ratio ratio-16x9">
+			<iframe src="https://www.youtube.com/embed/rh2Bd9sTm0U" allowfullscreen></iframe>
+			</div>
+		</section>
+
+	</div>
+	</main>
+
+	<footer>
+		Copyright ©  林宜潔. All Rights Reserved.
+	</footer>
+
+
+			
+<iframe
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/011b76a8-b4ff-487e-a5db-734c0c488636">
+</iframe>
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>
